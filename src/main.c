@@ -8,6 +8,8 @@ int main() {
     while (!WindowShouldClose()) {
         BeginDrawing();
 
+        DrawCircle(100, 100, 10, WHITE);
+
         EndDrawing();
     }
 
